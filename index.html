@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Learn RequireJs</title>
+</head>
+<body>
+	<script data-main="js/config" src="require.js"></script>
+	<script type="text/javascript">
+		require(['config'], function() {
+			require(['assets/app']);
+		});
+	</script>
+</body>
+</html>
